@@ -86,6 +86,7 @@ def main(smiles_list):
         print("No valid compounds found.")
 
     print("\nEXCLUSION LOG")
+    
     if not df_exclusion_log.empty:
         print(df_exclusion_log.to_string(index=False))
     else:
